@@ -1,0 +1,46 @@
+```json
+{
+  "name": "pumpclone",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.29.0",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@radix-ui/react-tabs": "^1.0.4",
+    "@solana/wallet-adapter-base": "^0.9.23",
+    "@solana/wallet-adapter-react": "^0.15.35",
+    "@solana/wallet-adapter-react-ui": "^0.9.35",
+    "@solana/wallet-adapter-wallets": "^0.19.32",
+    "@solana/web3.js": "^1.87.6",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "lucide-react": "^0.294.0",
+    "next": "14.0.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sonner": "^1.2.4",
+    "tailwind-merge": "^2.1.0",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.4",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6",
+    "typescript": "^5.3.3"
+  }
+}
+```
